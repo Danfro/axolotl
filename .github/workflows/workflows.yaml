@@ -32,7 +32,7 @@ jobs:
         run: go build -v
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: axolotl
           path: axolotl
@@ -67,7 +67,7 @@ jobs:
         run: npm --prefix ./axolotl-web run build
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: axolotl-web
           path: axolotl-web/dist/
@@ -95,7 +95,7 @@ jobs:
           args: --manifest-path crayfish/Cargo.toml --release
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: crayfish
           path: crayfish/target/release/crayfish
@@ -147,7 +147,7 @@ jobs:
           ./appimagetool-x86_64.AppImage build/AppDir
 
       - name: Upload the built AppImage artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Axolotl-AppImage
           path: Axolotl-x86_64.AppImage
@@ -193,7 +193,7 @@ jobs:
           args: clickable build --verbose -a armhf --app
 
       - name: Upload the built clickable artifact (armhf)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Axolotl-Clickable
           path: build/arm-linux-gnueabihf/app/textsecure.nanuc_*.click
@@ -239,7 +239,7 @@ jobs:
           args: clickable build --verbose -a arm64 --app
 
       - name: Upload the built clickable artifact (amd64)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Axolotl-Clickable
           path: build/aarch64-linux-gnu/app/textsecure.nanuc_*.click
