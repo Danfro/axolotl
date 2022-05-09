@@ -2,11 +2,10 @@ cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMT
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/PuerkitoBio/goquery v1.5.1/go.mod h1:GsLWisAFVj4WgDibEWF4pvYnkVQBpKBKeU+7zCJoLcc=
 github.com/andybalholm/cascadia v1.1.0/go.mod h1:GsXiBklL0woXo1j/WYWtSYYC4ouU9PqHO0sqidkEA4Y=
-github.com/asticode/go-astikit v0.15.0/go.mod h1:h4ly7idim1tNhaVkdVBeXQZEE3L0xblP7fCWbgwipF0=
-github.com/asticode/go-astikit v0.22.0 h1:ZI/gS/0bWlqPvC8KGuoOOl71ZjFtA4ypxYXxwWOZuwU=
-github.com/asticode/go-astikit v0.22.0/go.mod h1:h4ly7idim1tNhaVkdVBeXQZEE3L0xblP7fCWbgwipF0=
-github.com/asticode/go-astilectron v0.27.0 h1:SbY6xDsPZ+BvQTb/daZpFBTJF5QWzSQ2IEj9destNIw=
-github.com/asticode/go-astilectron v0.27.0/go.mod h1:Tx+aS0IvbV0cO4TlQbOO1NFA/lATj11vEStydyIjMjM=
+github.com/asticode/go-astikit v0.29.1 h1:w27sLYXK84mDwArf/Vw1BiD5dfD5PBDB+iHoIcpYq0w=
+github.com/asticode/go-astikit v0.29.1/go.mod h1:h4ly7idim1tNhaVkdVBeXQZEE3L0xblP7fCWbgwipF0=
+github.com/asticode/go-astilectron v0.28.0 h1:k6nyrjAuea1wnNJmPY3Vy9yp/0H5cJnkC2pXR+bTtHE=
+github.com/asticode/go-astilectron v0.28.0/go.mod h1:o7wZ7KDr3XH3xcEwcxfpWzNVf63JsMKtif/6IP4mpHk=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
