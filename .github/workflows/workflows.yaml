@@ -20,7 +20,7 @@ jobs:
           go-version: 1.16
 
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Download dependencies
         run: go mod download
@@ -49,7 +49,7 @@ jobs:
           node-version: "16.x"
 
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Download dependencies
         run: npm --prefix ./axolotl-web ci --loglevel verbose
@@ -84,7 +84,7 @@ jobs:
           toolchain: stable
 
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
@@ -110,7 +110,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
@@ -160,7 +160,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
@@ -206,7 +206,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
@@ -255,7 +255,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
@@ -277,7 +277,7 @@ jobs:
 
     steps:
       - name: Check out code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
         with:
           submodules: 'true'
 
